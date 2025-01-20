@@ -1,1 +1,138 @@
 /* You can add global styles to this file, and also import other style files */
+/* Global font style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../assets/alan-turing-and-turing-machine.jpg");
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  background-size: cover; /* Redimensionne l'image de fond pour couvrir tout l'écran */
+  background-position: center; /* Centre l'image dans l'écran */
+}
+
+/* Container styling */
+.file-upload-container {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Input field */
+#fileInput {
+  display: block;
+  margin: 20px auto;
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Styles pour le conteneur du tableau */
+.transitions {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Rendre le tableau plus joli */
+.transitions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles des bordures et alignement */
+.transitions-table th,
+.transitions-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styles pour les en-têtes */
+.transitions-table thead {
+  background-color: #f4f4f4;
+}
+
+.transitions-table .header-cell {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style pour les cellules des états */
+.transitions-table .state-cell {
+  font-weight: bold;
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+/* Style pour les cellules des transitions */
+.transitions-table .transition-cell {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Ajout de surbrillance lors du survol */
+.transitions-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Espacement entre le contenu et le tableau */
+.transitions {
+  text-align: center;
+}
+
+.tape-visualization {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.tape-visualization span {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  margin: 0 2px;
+  min-width: 20px;
+  text-align: center;
+}
+
+.tape-visualization span.head {
+  background-color: #4caf50;
+  color: white;
+}
+
+.current-state {
+  margin: 10px 0;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+}
+
+/* Style pour la cellule surlignée */
+.highlight-cell {
+  background-color: #ffeb3b; /* Jaune clair */
+  font-weight: bold;
+  color: #000; /* Contraste pour accessibilité */
+}
