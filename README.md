@@ -107,21 +107,21 @@ symbole2
 2. **Ressources visuelles** :
     - L'interface inclut une image de fond inspirante et des composants dynamiques comme le ruban et le tableau des transitions.
 
-3. **Guide supplémentaires**
+3. **Guide supplémentaires** :
     - Vous pouvez aller sur le dossier Turing pour voir un autre [README](./Turing/README.md)
     - Vous pouvez utiliser les fichiers .mt dans le dossier [data](./Turing/data)
 
 ## **Guide d'utilisation**
-1. ** Commencement**
+1. **Commencement**
 ![](./Turing/assets/page1.png)
-2. ** Saisie de votre fichier .mt**
+2. **Saisie de votre fichier .mt**
 ![](./Turing/assets/page2.png)
 ![](./Turing/assets/page3.png)
-3. ** Début de l'outil du simulation**
+3. **Début de l'outil du simulation**
 ![](./Turing/assets/page4.png)
-4. ** Vous pouvez simuler tranquillement**
+4. **Vous pouvez simuler tranquillement**
 ![](./Turing/assets/page5.png)
-5. ** Pour retourner, veuiller rafraichir la page **
+5. **Pour retourner, veuiller rafraichir la page**
 ![](./Turing/assets/page6.png)
 
 ## **IDE**
