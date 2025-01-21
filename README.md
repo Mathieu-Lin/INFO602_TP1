@@ -33,11 +33,9 @@ Ce document explique les différents fichiers du projet, leur rôle, et fournit 
 
 ## **Guide d'installation**
 ### **Prérequis**
-1. **Node.js** : Assurez-vous d'avoir Node.js (version LTS recommandée) installé. [Téléchargez ici]().
-2. **Angular CLI** : Installez Angular CLI globalement.
-``` bash
-   npm install -g @angular/cli@19.1.2
-```
+1. **Node.js** : Assurez-vous d'avoir Node.js (version LTS recommandée) installé. [Téléchargez ici](https://nodejs.org/en).
+2. **Angular CLI** : Installez Angular CLI globalement. Vous verrez dans la partie des étapes pour configurer.
+
 ### **Étapes pour configurer et exécuter l'application**
 1. **Cloner le dépôt** Téléchargez ou clonez le projet à partir du dépôt.
 ``` bash
@@ -45,11 +43,18 @@ Ce document explique les différents fichiers du projet, leur rôle, et fournit 
 ```
 1. **Installation des dépendances** Naviguez dans le dossier du projet et installez les dépendances :
 ``` bash
-   cd <nom_du_projet>
+   cd INFO602_TP1
    npm install
 ```
+
+2. **Angular CLI** : Installez Angular CLI globalement.
+``` bash
+   npm install -g @angular/cli@19.1.2
+```
+
 1. **Démarrage du serveur de développement** Lancez le serveur avec Angular CLI :
 ``` bash
+   cd ./Turing/src
    ng serve
 ```
 Une fois démarré, ouvrez votre navigateur et accédez à l'application via :
