@@ -76,26 +76,49 @@ Une fois démarré, ouvrez votre navigateur et accédez à l'application via :
 ### **Format attendu pour le fichier `.mt`**
 Le fichier `.mt` doit respecter une certaine structure pour être traité correctement par l'application. Voici un exemple général :
 ```
-/** Transitions **/
-etat1,symboleLu->etat2,symboleEcrit,Deplacement
-etat1,symboleLu->etatFinal,symboleEcrit,Deplacement
+/**  States **/
+q0
+q1
+q2
+q3
+q4
 
-/** Initial state **/
-etatInitial
+/**  Input symbols **/
+a
+b
 
-/** Final states **/
-etatFinal
-
-/** Tape alphabet **/
-symbole1
-symbole2
-
-/** Blank symbol **/
+/**  Tape alphabet **/
+a
+b
 #
+A
+B
+
+/**  Blank symbol **/
+#
+
+/**  Initial state **/
+q0
+
+/**  Final states **/
+q4
+
+/**  Transitions **/
+q0,a->q1,A,R
+q0,B->q3,B,R
+q1,a->q1,a,R
+q1,b->q2,B,L
+q1,B->q1,B,R
+q2,a->q2,a,L
+q2,A->q0,A,R
+q2,B->q2,B,L
+q3,B->q3,B,R
+q3,#->q4,#,R
 ```
 - **Sections** :
     - `Transitions` : Contient les règles d'état de la machine (ex. : `etat,symboleLu->etatSuivant,symboleEcrit,Déplacement`).
     - `Initial state` et `Final states` : Définit les états de début et de fin.
+    - `Input symbols` : Définit les symbols de début.
     - `Tape alphabet` : Les symboles autorisés dans l'alphabet.
     - `Blank symbol` : Représente le symbole blanc (par défaut : `#`).
 
