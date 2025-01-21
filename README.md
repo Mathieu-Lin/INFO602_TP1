@@ -41,7 +41,7 @@ Ce document explique les différents fichiers du projet, leur rôle, et fournit 
 ### **Étapes pour configurer et exécuter l'application**
 1. **Cloner le dépôt** Téléchargez ou clonez le projet à partir du dépôt.
 ``` bash
-   git clone <URL_du_dépôt>
+   git clone https://github.com/Mathieu-Lin/INFO602_TP1.git
 ```
 1. **Installation des dépendances** Naviguez dans le dossier du projet et installez les dépendances :
 ``` bash
@@ -108,27 +108,27 @@ symbole2
 
 ## **Guide d'utilisation**
 1. ** Commencement**
-[](./Turing/assets/page1.png)
+![](./Turing/assets/page1.png)
 2. ** Saisie de votre fichier .mt**
-[](./Turing/assets/page2.png)
-[](./Turing/assets/page3.png)
+![](./Turing/assets/page2.png)
+![](./Turing/assets/page3.png)
 3. ** Début de l'outil du simulation**
-[](./Turing/assets/page4.png)
+![](./Turing/assets/page4.png)
 4. ** Vous pouvez simuler tranquillement**
-[](./Turing/assets/page5.png)
+![](./Turing/assets/page5.png)
 5. ** Pour retourner, veuiller rafraichir la page **
-[](./Turing/assets/page6.png)
+![](./Turing/assets/page6.png)
 
 ## **IDE**
 
 J'utilise IntelliJ IDEA Ultimate
-[](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
 ## **Frameworks et autres**
-- [](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-- [](https://img.shields.io/badge/AngularJS-E23237?style=for-the-badge&logo=angularjs&logoColor=white)
-- [](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-- [](https://img.shields.io/badge/ts--node-3178C6?style=for-the-badge&logo=ts-node&logoColor=white)
+- ![](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+- ![](https://img.shields.io/badge/AngularJS-E23237?style=for-the-badge&logo=angularjs&logoColor=white)
+- ![](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+- ![](https://img.shields.io/badge/ts--node-3178C6?style=for-the-badge&logo=ts-node&logoColor=white)
 
 ## **Images**
 - Lien du fond du site web : (https://fisheyeimmersive.com/wp-content/uploads/sites/2/2024/06/alan-turing-and-turing-machine.jpg)
